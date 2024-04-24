@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "browser-extension-template",
+  "version": "1.0.0",
+  "description": "A simple browser extension template created with react and mui.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "48": "icon/icon-48.png",
+    "72": "icon/icon-72.png"
+  },
+  "permissions": ["activeTab", "tabs", "scripting"]
+}
